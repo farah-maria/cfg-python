@@ -6,10 +6,12 @@ days = 7
 
 total_cans = cats * cans_per_day_per_cat * days
 
-#print(f"{cats} cats eat {str(total_cans)} cans in {days} days.")
+# print(f"{cats} cats eat {str(total_cans)} 
+#   cans in {days} days.")
 
 
-output = "{} cats eat {} cans in {} days".format(cats, cans_per_day_per_cat, days)
+output = "{} cats eat {} cans in {} days".format(
+    cats, cans_per_day_per_cat, days)
 
 print(output)
 
